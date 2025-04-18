@@ -6,7 +6,7 @@
 Clone Projek
 
 ```bash
-  git clone https://github.com/abdulaziz-m5u/toko-online-laravel.git nama_projek
+  git clone https://github.com/wafiazmi/aqua.git nama_projek
 ```
 
 Masuk ke folder dengan perintah
@@ -16,7 +16,9 @@ Masuk ke folder dengan perintah
 ```
 
 -   Copy .env.example menjadi .env kemudia edit database dan api key nya
-
+```bash
+    set COMPOSER_PROCESS_TIMEOUT=900
+```
 ```bash
     composer install
 ```
